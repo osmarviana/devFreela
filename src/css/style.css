@@ -1,0 +1,264 @@
+@import url("https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background-color: #171810;
+  font-family: "Schibsted Grotesk", sans-serif;
+}
+
+.header {
+  padding: 30px 80px;
+}
+
+.header .nav .ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 50px;
+}
+
+.header .nav .ul .li .nav-link {
+  font-size: 18px;
+  font-weight: bold;
+  color: #03fa6e;
+  transition: all 0.3s;
+}
+
+.header .nav .ul .li .nav-link:hover {
+  color: #fff;
+}
+
+.nav-link.active {
+  color: #fff;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 80px;
+  gap: 30px;
+}
+
+.main-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imagem {
+  width: 100%;
+}
+
+.titulo {
+  color: #03fa6e;
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.descricao {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: justify;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.btn-box {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.button {
+  width: 150px;
+  padding: 5px;
+  border: none;
+  background-color: #03fa6e;
+  color: #2a446b;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.button:hover {
+  background-color: #2a446b;
+  color: #03fa6e;
+}
+
+.section {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-title {
+  font-size: 42px;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.contact-section {
+  width: 70vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #03fa6e;
+  padding: 10px 0;
+}
+
+.formulario {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+  gap: 50px;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+label {
+  color: #2a446b;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  width: 300px;
+  font-size: 14px;
+  color: #2a446b;
+  padding: 5px;
+  border: none;
+}
+
+.input {
+  margin-bottom: 10px;
+}
+
+.msg {
+  display: flex;
+  flex-direction: column;
+}
+
+#message {
+  height: 150px;
+}
+
+.button-form {
+  width: 150px;
+  padding: 5px;
+  border: none;
+  background-color: #2a446b;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.footer{
+    padding: 30px 50px;
+}
+
+.footer .footer-p{
+    color: #03fa6e;
+    font-size: 10px;
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 30px;
+  }
+
+  .header .nav .ul {
+    justify-content: center;
+  }
+
+  .container {
+    flex-direction: column;
+    padding: 0 30px;
+    gap: 0;
+    height: auto;
+    margin-bottom: 150px;
+  }
+
+  .contact-title {
+    margin-bottom: -50px;
+}
+
+  .main-section {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .contact-section {
+    width: 100vw;
+    margin-top: 100px;
+  }
+
+  .formulario {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.footer{
+    margin-top: 60px;
+    text-align: center;
+}
+
+@media (max-width: 425px) {
+  .titulo {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .button {
+    width: 100%;
+  }
+}
+
+@media (max-width: 375px) {
+  .titulo {
+    font-size: 26px;
+  }
+
+  .descricao {
+    font-size: 16px;
+  }
+
+  .button {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 320px) {
+  .titulo {
+    font-size: 22px;
+  }
+
+  .descricao {
+    font-size: 14px;
+  }
+}

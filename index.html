@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DevFreela - Desenvolvimento Web</title>
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link
+      rel="shortcut icon"
+      href="./src/images/favicon.ico"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <header class="header" id="header">
+      <nav class="nav">
+        <ul class="ul">
+          <li class="li">
+            <a href="#about" class="nav-link active">About</a>
+          </li>
+          <li class="li">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="container" id="container">
+      <section class="main-section">
+        <img
+          class="imagem"
+          src="./src/images/DevFreela.png"
+          alt="logo do DevFreela."
+        />
+        <div class="descricao-pagina">
+          <h1 class="titulo">DevFreela - Desenvolvimento Web</h1>
+          <p class="descricao">
+            Freelancer é uma palavra do inglês que, traduzida, quer dizer
+            “trabalhador autônomo”. Em linhas gerais, portanto, o trabalho
+            freelance se diferencia do tradicional por apenas um motivo
+            específico: a forma de contrato firmado entre um profissional e um
+            empresa. Isso porque os freelancers, ao contrário de outros
+            trabalhadores, realizam suas funções a partir da prestação de um
+            serviço esporádico, sem vínculo empregatício,e que termina ao fim de
+            um projeto.
+          </p>
+          <div class="btn-box">
+            <button class="button">Em breve</button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <section class="section" id="#contact">
+      <h2 class="contact-title">Contato</h2>
+      <div class="contact-section">
+        <form class="formulario" id="form">
+          <div class="inputs">
+            <label for="name">Nome</label>
+            <input class="input" id="name" type="text" name="name" />
+
+            <label for="email">Email</label>
+            <input class="input" id="email" type="email" name="email" />
+
+            <label for="fone">Telefone</label>
+            <input class="input" id="fone" type="tel" name="fone" />
+          </div>
+          <div class="msg">
+            <label for="message">Descrição</label>
+            <input id="message" type="text" name="message" />
+          </div>
+        </form>
+        <button class="button-form">Enviar</button>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p class="footer-p"><strong>Desenvolvido por:</strong> Osmar Viana ©</p>
+    </footer>
+
+    <script src="./src/js/menu-ativo.js"></script>
+  </body>
+</html>
